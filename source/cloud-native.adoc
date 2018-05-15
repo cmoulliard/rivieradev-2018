@@ -27,7 +27,7 @@ image:cmoulliard.png[width="200px",float="right"]
 == Agenda
 
 * Cloud Native Development
-* Principes
+* Principles
 * What do **I** expect as **C**oder
 * Demo time
 
@@ -79,7 +79,7 @@ image::now.png[]
 * executable
 * portable
 
-[#principels-2]
+[#principles-2]
 // ************** principles-2 **************
 == Principle - 2
 
