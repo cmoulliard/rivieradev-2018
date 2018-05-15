@@ -1,4 +1,4 @@
-# Generate Slideshow
+# Generate Riviera's presentation
 
 - Install litoria
 ```bash
