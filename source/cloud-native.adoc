@@ -27,7 +27,7 @@ image:cmoulliard.png[width="200px",float="right"]
 == Agenda
 
 * Cloud Native Development
-* Principes
+* Principles
 * What do **I** expect as **C**oder
 * Demo time
 
@@ -68,9 +68,9 @@ image::now.png[]
 * Agility
 * Margin (cost)
 
-[#principes-1]
-// ************** principes-1 **************
-== Principe - 1
+[#principles-1]
+// ************** principles-1 **************
+== Principle - 1
 
 [%step]
 * **Linux Container**
@@ -79,9 +79,9 @@ image::now.png[]
 * executable
 * portable
 
-[#principes-2]
-// ************** principes-2 **************
-== Principe - 2
+[#principles-2]
+// ************** principles-2 **************
+== Principle - 2
 
 [%step]
 * **MicroService** based Architecture
@@ -90,22 +90,22 @@ image::now.png[]
 * Circuit Breaker
 * Scalability
 
-[#principes-3]
-// ************** principes-3 **************
-== Principe - 3
+[#principles-3]
+// ************** principles-3 **************
+== Principle - 3
 
 [%step]
 * **Native features**
 * Access provisioned **MicroServices**
-* RBAC & Secutiry
+* RBAC & Security
 * Consume Services from **Catalog**
 * Routing, ACL, A/B testing
 
-[#principes-4]
-// ************** principes-4 **************
-== Principe - 4
+[#principles-4]
+// ************** principles-4 **************
+== Principle - 4
 
-* **DevOps** : Ci/Cd pipelines to automate the build/deployment process
+* **DevOps** : CI/CD pipelines to automate the build/deployment process
 
 image::devops.png[]
 
