@@ -155,6 +155,16 @@ image::pipeline-executed.png[]
 
 image::select_mysql_apb.png[]
 
+[#more]
+== What's else
+
+[%step]
+* Security and Keycloak (OAuth2,...)
+* Metrics (Prometheus, Actuator)
+* Remote Debugging
+* Integration testing (Arquillian)
+* Logging (Jaeger)
+
 [#demo]
 // ************** demo **************
 == Demo
