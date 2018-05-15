@@ -1,0 +1,164 @@
+== Cloud Native Development
+
+Charles Moulliard
+
+May 17th - Riviera Dev
+
+image::logo_RD_black.svg[width="350px"]
+
+// ************** who **************
+[#who]
+== Who
+
+image:cmoulliard.png[width="200px",float="right"]
+
+* Charles Moulliard
+
+* Software Engineer Manager
+
+* Technology evangelist
+
+* Twitter: @cmoulliard
+
+* Email: cmoulliard@redhat.com
+
+[#agenda]
+// ************** agenda **************
+== Agenda
+
+* Cloud Native Development
+* Principes
+* What do **I** expect as **C**oder
+* Demo time
+
+//[#why-cloud-before]
+// ************** why cloud **************
+[%notitle]
+== Before
+
+image::before.png[]
+
+[#why-cloud]
+== Why Cloud ...
+
+[%notitle]
+== Now ...
+
+image::now.png[]
+
+[#cloud-native-def1]
+// ************** cloud-native-def1 **************
+== Definition - CNCF
+
+“distributed systems capable of scaling to tens of thousands of self healing multi-tenant nodes”
+
+[#cloud-native-def2]
+// ************** cloud-native-def2 **************
+== Definition
+
+“Cloud-native is an approach to building and running applications that can leverage the capabilities of the cloud platform”
+
+[#cloud-native-goals]
+// ************** goals **************
+== Goals
+
+[%step]
+* Scalability
+* Speed
+* Agility
+* Margin (cost)
+
+[#principes-1]
+// ************** principes-1 **************
+== Principe - 1
+
+[%step]
+* **Linux Container**
+
+* unit of packaging
+* executable
+* portable
+
+[#principes-2]
+// ************** principes-2 **************
+== Principe - 2
+
+[%step]
+* **MicroService** based Architecture
+* Isolation
+* Health Check
+* Circuit Breaker
+* Scalability
+
+[#principes-3]
+// ************** principes-3 **************
+== Principe - 3
+
+[%step]
+* **Native features**
+* Access provisioned **MicroServices**
+* RBAC & Secutiry
+* Consume Services from **Catalog**
+* Routing, ACL, A/B testing
+
+[#principes-4]
+// ************** principes-4 **************
+== Principe - 4
+
+* **DevOps** : Ci/Cd pipelines to automate the build/deployment process
+
+image::devops.png[]
+
+[#wdie]
+// ************** wdie **************
+== What do **I** expect as **C**oder
+
+image::cloud-services.jpg[width="400px"]
+
+[#oc-tool]
+// ************** oc-tool **************
+== Tool - manage
+
+image::oc-client-create.png[width="100%"]
+
+[#oc-tool-build]
+// ************** oc-tool-build **************
+== Build - deploy
+
+image::oc-build.png[width="100%"]
+
+[#toolbox]
+// ************** toolbox **************
+== Toolbox
+
+image::launcher.png[width="80%"]
+
+[#automate-local]
+// ************** automate-local **************
+== Automate - Local
+
+image::to-openshift.png[]
+
+[#automate-template]
+// ************** automate-template **************
+== Automate - Template
+
+image::template-to-openshift.png[]
+
+[#pipeline]
+== Automate - Jenkins
+
+image::pipeline-executed.png[]
+
+[#catalog]
+== Service Catalog
+
+image::select_mysql_apb.png[]
+
+[#demo]
+// ************** demo **************
+== Demo
+
+image::frontend-backend.png[width=500px]
+
+https://github.com/snowdrop/cloud-native-lab

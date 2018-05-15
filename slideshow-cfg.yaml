@@ -1,0 +1,19 @@
+source: "./source" # or could be a directory eg. ./examples
+
+#repos:
+#  revealjs: 'https://github.com/hakimel/reveal.js/archive/3.6.0.tar.gz'
+#  revealjs-backend: 'https://github.com/asciidoctor/asciidoctor-reveal.js/archive/master.zip'
+
+attributes:
+  backend: 'revealjs'
+  source-highlighter: highlightjs
+  icons: font
+  customcss: css/custom.css
+  revealjs_theme: beige # black, simple, white, league, sky, beige, simple, serif, blood, night, moon, solarized
+  revealjs_transition: none
+  imagesdir: image
+  revealjs_history: true
+
+options:
+  safe: 'unsafe' # Required to avoid that the file to process is not loaded
+  to_dir: './generated'
