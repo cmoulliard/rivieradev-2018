@@ -38,42 +38,52 @@ image:cmoulliard.png[width="200px",float="right"]
 
 image::before.png[]
 
-[#why-cloud]
-== Why Cloud ...
+[#what-changed]
+== What changed ...
 
 [%notitle]
-== Now ...
+== More choices than ever
+
+image::more-choices.png[]
+
+[%notitle]
+== Hybrid
 
 image::now.png[]
 
-[#cloud-native-def1]
-// ************** cloud-native-def1 **************
-== Definition - CNCF
+[%notitle]
+== Evolution
 
-“distributed systems capable of scaling to tens of thousands of self healing multi-tenant nodes”
+image::evolution.png[]
+
+[#goals]
+// ************** goals **************
+== IT Goals
+
+[%step]
+* Speed to develop
+* Agility to deliver new features
+* Increase margin (cost)
+* Maximise infrastructure/tools
+
+//[#cloud-native-def1]
+// ************** cloud-native-def1 **************
+//== Definition - CNCF
+//
+//“distributed systems capable of scaling to tens of thousands of self healing multi-tenant nodes”
 
 [#cloud-native-def2]
 // ************** cloud-native-def2 **************
 == Definition
 
-“Cloud-native is an approach to building and running applications that can leverage the capabilities of the cloud platform”
-
-[#cloud-native-goals]
-// ************** goals **************
-== Goals
-
-[%step]
-* Scalability
-* Speed
-* Agility
-* Margin (cost)
+“Cloud-native is an approach to **build** and **run** applications that can **leverage** the capabilities of the cloud platform”
 
 [#principles-1]
 // ************** principles-1 **************
 == Principle - 1
 
 [%step]
-* **Linux Container**
+* **Adopt Linux Container**
 
 * unit of packaging
 * executable
@@ -84,7 +94,7 @@ image::now.png[]
 == Principle - 2
 
 [%step]
-* **MicroService** based Architecture
+* Design **MicroService** based Architecture
 * Isolation
 * Health Check
 * Circuit Breaker
@@ -95,7 +105,7 @@ image::now.png[]
 == Principle - 3
 
 [%step]
-* **Native features**
+* Use Cloud **Native features**
 * Access provisioned **MicroServices**
 * RBAC & Security
 * Consume Services from **Catalog**
