@@ -174,6 +174,7 @@ image::select_mysql_apb.png[]
 * Remote Debugging
 * Integration testing (Arquillian)
 * Logging (Jaeger)
+* Routing/ACL/CircuitBreaker ... (Google Istio)
 
 [#demo]
 // ************** demo **************
