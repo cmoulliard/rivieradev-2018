@@ -127,6 +127,12 @@ image::devops.png[]
 
 image::cloud-services.jpg[width="400px"]
 
+[#cloud-machine]
+// ************** cloud-machine **************
+== Cloud Machine
+
+image::3_flavors_of_openshift.png[width="600px"]
+
 [#oc-tool]
 // ************** oc-tool **************
 == Tool - manage
