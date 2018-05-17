@@ -131,6 +131,12 @@ image::cloud-services.jpg[width="400px"]
 // ************** cloud-machine **************
 == Cloud Machine
 
+image::openstack-openshift.png[width="700px"]
+
+[#cloud-machine1]
+// ************** cloud-machine1 **************
+== Flavor
+
 image::3_flavors_of_openshift.png[width="600px"]
 
 [#oc-tool]
